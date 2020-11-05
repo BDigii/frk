@@ -20,7 +20,7 @@ interface StatusOption {
 
 export const statusOpts: Record<string, StatusOption> = {
     success: {
-        status: 'Success',
+        status: 'Digii deployed some fresh code!',
         color: 0x28A745
     },
     failure: {
